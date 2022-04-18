@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MENU KTP</title>
+</head>
+<body>
+    <form action="ktp.php" method="post">
+        <fieldset>
+        <legend>KTP</legend>
+        <p>
+             <label>NIK</label>
+             <input type="text" name="nik" placeholder="nik..." />
+        </p>
+        <p>
+             <label>Nama:</label>
+             <input type="text" name="nama" placeholder="nama lengkap..." />
+        </p>
+        <p>
+            <label>Tempat/tgl Lahir</label>
+            <input type="text" name="ttl" placeholder="tempat/tgl lahir..." />
+        </p>
+        <p>
+            <label>Jenis Kelamin:</label>
+            <label><input type="radio" name="jenis_kelamin" value="laki-laki" />LAKI-LAKI</label>
+            <label><input type="radio" name="jenis_kelamin" value="perempuan" />PEREMPUAN</label>
+            <label><input type="radio" name="jenis_kelamin" value="perempuan" />LAINNYA</label>
+        <p>
+            <label>Alamat:</label>
+            <textarea name="alamat"></textarea>
+        </p>  
+        <p>
+             <label>RT/RW:</label>
+             <input type="text" name="rt/rw" placeholder="RT/RW..." />
+        </p>
+        <p>
+             <label>Kel/Desa:</label>
+             <input type="text" name="kel/desa" placeholder="Kel/desa..." />
+        </p>
+        <p>
+             <label>Kecamatan:</label>
+             <input type="kecamatan" name="kecamatan" placeholder="kecamatan..." />
+        </p>
+        <p>
+            <label>Agama:</label>
+            <select name="agama">
+                <option value="islam">ISLAM</option>
+                <option value="kristen">KRISTEN</option>
+                <option value="hindu">HINDU</option>
+                <option value="budha">BUDHA</option>
+            </select>
+        </p>
+        <p>
+            <label>Status :</label>
+            <select name="status">
+                <option value="belum kawin">BELUM KAWIN</option>
+                <option value="kawin">KAWIN</option>
+                <option value="janda">JANDA</option>
+                <option value="duda">DUDA</option>
+            </select>
+        </p>
+        <p>
+            <label>pekerjaan:</label>
+            <select name="pekerjaan">
+                <option value="pns">PNS</option>
+                <option value="karyawan swasta">KARYAWAN SWASTA</option>
+                <option value="pelajar/mahasiswa">PELAJAR/MAHASISWA</option>
+                <option value="guru">GURU</option>
+            </select>
+        </p>
+        <p>
+            <label>Kewarganegaraan</label>
+            <label><input type="radio" name="kewarganegaraan" value="wni" />WNI</label>
+            <label><input type="radio" name="kewarganegaraan" value="wna" />WNA</label>
+        </p>
+        <p>
+            <label>Berlaku Hingga: SEUMUR HIDUP</label>
+       </p>
+
+</body>    
+</html>
